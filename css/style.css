@@ -106,7 +106,8 @@ position: relative;
 }
 
 .box {
-  text-align: center;
+  display: flex;
+          
 }
 
 .emoji-list {
@@ -143,6 +144,7 @@ position: relative;
   align-items: center; /* 수직 중앙 정렬 */
   justify-content: center; /* 수평 중앙 정렬 */
   border-radius: 50%; /* 둥글게 만들기 */
+  
 }
 
 .box2 {
