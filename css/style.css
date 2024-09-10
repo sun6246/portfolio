@@ -84,7 +84,14 @@
   .main img {
     position: relative;
     margin-top: 10px; /* header의 높이만큼 상단 여백 */
+
   }
+
+  .banner-img {
+    width: 200px; /* 컨테이너에 맞게 이미지를 확대 */
+    height: auto; /* 비율을 유지하며 높이를 자동 조정 */
+  }
+
 
   .introduction img {
   position: relative;
@@ -129,6 +136,7 @@ position: relative;
 .emoji-img {
   width: 50px; /* 이모지 이미지 크기 조정 */
   height: auto;
+  margin-left: 50px;
 }
 
 .boxes-container {
@@ -167,6 +175,28 @@ position: relative;
   height: 400px; /* 박스의 높이 */
 }
 
+.box2 p:hover {
+  width: 400px; /* 호버 시 너비 */
+  height: 400px; /* 호버 시 높이 */
+  background-color: white; /* 호버 시 배경색 변경 */
+  border-radius: 100%; /* 둥글게 만들기 */
+}
+
+.box3 p:hover {
+  width: 500px; /* 호버 시 너비 */
+  height: 500px; /* 호버 시 높이 */
+  background-color: white; /* 호버 시 배경색 변경 */
+  border-radius: 100%; /* 둥글게 만들기 */
+}
+
+.box4 p:hover {
+  width: 300px; /* 호버 시 너비 */
+  height: 300px; /* 호버 시 높이 */
+  background-color: white; /* 호버 시 배경색 변경 */
+  border-radius: 100%; /* 둥글게 만들기 */
+}
+
+
 ul {
 list-style: none; /* 기본 리스트 스타일 제거 */
 padding: 0;
@@ -176,8 +206,8 @@ justify-content: left; /* 리스트 아이템을 가로 방향으로 가운데 �
 }
 
 .emoji-img {
-width: 550px; /* 이미지 크기 조정 */
-height: 550px; /* 이미지 크기 조정 */
+width: 600px; /* 이미지 크기 조정 */
+height: 600px; /* 이미지 크기 조정 */
 /* 필요에 따라 margin이나 다른 스타일 추가 가능 */
 margin-bottom: 20px; /* 이모지 이미지와 문구 사이의 간격 조정 */
 border-radius: 50%; /* 둥글게 만들기 */
