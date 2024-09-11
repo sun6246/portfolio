@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>유혜선</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="js/script.js"></script>
     <meta
@@ -61,14 +64,15 @@
             <p>문구</p>
 
             <div class="profile-box">
-              <a href=""
-                ><img src="images/이모지1.png" alt="i" class="emoji-img"
-              /></a>
+              <a href="#">
+                <img src="images/이모지1.png" alt="i" class="emoji-img" />
+              </a>
 
-        
               <div class="boxes-container">
                 <div class="box2">
-                  <p>목표 1</p>
+                  이름 : 유혜선<br />
+                  나이 : 30살<br />
+                  취미 : 다이어리꾸미기
                 </div>
                 <div class="box3">
                   <p>목표 2</p>
@@ -76,91 +80,114 @@
                 <div class="box4">
                   <p>목표 3</p>
                 </div>
-                
               </div>
             </div>
           </div>
-
-          
         </section>
 
-       <!-- 카테고리 영역 -->
-       <section id="category">
-        <div class="box">
-          <!-- 여기에다가 각 영역 구조 잡고 꾸미기 하세요 -->
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">Category 1</div>
-              <div class="swiper-slide">Category 2</div>
-              <div class="swiper-slide">Category 3</div>
-              <div class="swiper-slide">Category 4</div>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        
-          <!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-<!-- Initialize Swiper -->
-<script>
-  var swiper = new Swiper(".mySwiper", {
-    scrollbar: {
-      el: ".swiper-scrollbar",
-      hide: true,
-    },
-  });
-</script>
-        </div>
-      </section>
-
-      <!-- 프로젝트 영역 -->
-      <section id="project">
-        <div class="box">
-          <ul>
-            <li>
-              <img src="images/AE&PR.png" alt="" class="ae-pr-img">
-            </li>
-          </ul>
-          <div id="modal" class="moda2">
-            <div class="modal-content">
-                <span id="closeModalBtn" class="close-btn">&times;</span>
-              
-                <p id="videoDescription" class="description"></p>
-            </div>
-        <div class="box">
-          
-        </div>
-        
-          
-          <!-- 여기에다가 각 영역 구조 잡고 꾸미기 하세요 -->
-          
-          <div id="cardContainer" class="card-container">
-            <!-- vido.json 파일 연동 -->
-             <!-- <div class="card" data-video-id="video-1" data-description="영상 설명">
-                <img src="https://picsum.photos/200/100" alt="썸네일이미지">
-                <h4>영상 제목</h4>
-                <p>영상 설명</p>
-             </div> -->
-        </div>
-        <div id="modal" class="moda3">
-            <div class="modal-content">
-                <span id="closeModalBtn" class="close-btn">&times;</span>
-                <div class="video-container">
-                    <iframe id="youtubeVideo" width="560" height="315" src="https://www.youtube.com/embed/Qw018cMw9_U" frameborder="0" allowfullscreen>
-    
-                    </iframe>
+        <!-- 카테고리 영역 -->
+        <section id="category">
+          <div class="box">
+            <!-- Swiper 구조 -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  에펙
+                  <img src="images/ae.png" alt="" />
+                  <div class="Hurdles">box</div>
                 </div>
-                <p id="videoDescription" class="description"></p>
+                <div class="swiper-slide">
+                  프리미어
+                  <img src="images/pr.png" alt="" />
+                  <div class="Hurdles">box</div>
+                </div>
+                <div class="swiper-slide">
+                  포토샵,일러스트
+                  <img src="images/ps.png" alt="" />
+                  <img src="images/ai.png" alt="" />
+                  <div class="Hurdles">box</div>
+                </div>
+                <div class="swiper-slide">
+                  피그마
+                  <img src="images/피그마.png" alt="" />
+                  <div class="Hurdles">box</div>
+                </div>
+                <div class="swiper-slide">
+                  HTML
+                  <img src="images/html ic.png" alt="" />
+                  <img src="images/css.png" alt="" />
+                  <img src="images/js.png" alt="" />
+                  <div class="Hurdles">box</div>
+                </div>
+              </div>
             </div>
-  
-      <!-- Etc 영역 -->
-      <section id="etc">
-        <div class="box">
+          </div>
+        </section>
+
+        <!-- 프로젝트 영역 -->
+        <section id="project">
+          <div class="box">
+            <ul>
+              <li>
+                <img src="images/AE&PR.png" alt="" class="ae-pr-img" />
+                <img src="images/psai.png" alt="" class="ae-pr-img" />
+                <img src="images/html.png" alt="" class="ae-pr-img" />
+                <img src="images/pigma.png" alt="" class="ae-pr-img" />
+              </li>
+            </ul>
+
+            <!-- 여기에다가 각 영역 구조 잡고 꾸미기 하세요 -->
+            <div id="cardContainer" class="card-container">
+              <!-- vido.json 파일 연동 -->
+            </div>
+          </div>
+        </section>
+
+        <!-- Etc 영역 -->
+        <section id="etc">
           <!-- 여기에다가 각 영역 구조 잡고 꾸미기 하세요 -->
-          <span>Etc 영역</span>
+          <div class="gif">
+            <img src="images/다운로드.gif"" alt="이미지 설명" width="280"
+            height="380"> <img src="images/다운로드 (1).gif"" alt="이미지 설명"
+            width="280" height="380"> <img src="images/다운로드3.gif""
+            alt="이미지 설명" width="280" height="380"> <img
+            src="images/다운로드4.gif"" alt="이미지 설명" width="280"
+            height="380"> <img src="images/다운로드5.gif"" alt="이미지 설명"
+            width="280" height="380">
+          </div>
+        </section>
+      </main>
+
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span id="closeModalBtn" class="close-btn">&times;</span>
+          <div class="video-container">
+            <iframe
+              id="youtubeVideo"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/Qw018cMw9_U"
+              frameborder="0"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+          <p id="videoDescription" class="description"></p>
         </div>
-      </section>
-    </main>
-  </div>
-</body>
+      </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        scrollbar: {
+          el: ".swiper-scrollbar",
+          hide: true,
+        },
+      });
+    </script>
+  </body>
 </html>
